@@ -49,22 +49,13 @@ The saved model can be extended to a browser extension or can be added as a plug
 
 **Softwares**
 
-Jupyter notebook
-Python 3 and above
+Jupyter notebook, Python 3 and above
 
 **Python packages**
 
-sklearn
-numpy
-pandas
+sklearn, numpy, pandas, pickle
 
-lux
-seaborn
-matplotlib
+lux, seaborn, matplotlib
 
-BeautifulSoup
-whois
-urllib
-tldextract
+BeautifulSoup, whois, urllib, tldextract
 
-pickle
