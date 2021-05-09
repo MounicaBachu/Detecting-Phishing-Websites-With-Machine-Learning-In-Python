@@ -44,3 +44,27 @@ After fine tuning, XGBoost classifer was chosen as the final model with an accur
 **Future Work**
 
 The saved model can be extended to a browser extension or can be added as a plugin to the internet security providers in order to to warn the users to avoid the phishing sites by efficiently identifying them.
+
+**Required Installations**
+
+**Softwares**
+
+Jupyter notebook
+Python 3 and above
+
+**Python packages**
+
+sklearn
+numpy
+pandas
+
+lux
+seaborn
+matplotlib
+
+BeautifulSoup
+whois
+urllib
+tldextract
+
+pickle
