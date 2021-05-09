@@ -55,7 +55,7 @@ Jupyter notebook, Python 3 and above
 
 sklearn, numpy, pandas, pickle
 
-lux, seaborn, matplotlib
+lux, seaborn, matplotlib, xgboost
 
 BeautifulSoup, whois, urllib, tldextract
 
