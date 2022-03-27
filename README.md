@@ -25,13 +25,7 @@ To understand the relationships and the correlation of the data, visualisations 
 **Model Development**
 
 The supervised machine learning algorithms used for this analysis are
-Logistic Regression
-Naive Bayes Classifier
-Support Vector Machines
-Decision Tree Classifier
-Random Forest Classifier
-XGBoost Classifier
-Neural Network
+Logistic Regression, Naive Bayes Classifier, Support Vector Machines, Decision Tree Classifier, Random Forest Classifier, XGBoost Classifier and Neural Network.
 
 These models were trained and tested on the feature extracted dataset and evaluations were done to identify the model with high performance. XGBoost algorithm had a good accuracy and fast testing time compared to the other algorithms. Later a grid search was done on the XGBoost for hyper parameter tuning.
 
