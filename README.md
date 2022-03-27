@@ -12,15 +12,15 @@ Data source : https://www.kaggle.com/aman9d/phishing-data
 
 This base dataset is available in 'Main_dataset.csv' of this repository
 
-**Feature Enginnering**
+**Feature Engineering**
 
-We extracted few of the domain based features and address bar features for the URLs in the base dataset. A decision tree was applied on this data to obtain the feature importance and the unecessary features were deleted from the dataset. This data is further split for training and testing.
+We extracted few of the domain based features and address bar features for the URLs in the base dataset. A decision tree was applied on this data to obtain the feature importance and the unnecessary features were deleted from the dataset. This data is further split for training and testing.
 
 Based on the document, 'Phishing Website Features.docx' in this repository, the values of each feature were converted to 0 for legitimate site and 1 for phishing site. The respective feature extraction process are in 'feature_exxtraction.py' file of this repository.
 
-This new datastet is available in 'phishing_feature_engg.csv' of this repository
+This new dataset is available in 'phishing_feature_engg.csv' of this repository
 
-To understand the relationships and the correlation of the data, visualisations using Lux package in Python was done. These visualisations are available in 'Visualization_Lux_Phishing_Sites_Detection.ipynb' file of this repository.
+To understand the relationships and the correlation of the data, visualizations using Lux package in Python was done. These visualizations are available in 'Visualization_Lux_Phishing_Sites_Detection.ipynb' file of this repository.
 
 **Model Development**
 
@@ -33,7 +33,7 @@ The entire code for this project is available in 'Detecting_phishing_websites.ip
 
 **Results**
 
-After fine tuning, XGBoost classifer was chosen as the final model with an accuracy of 82.4%. This model was saved as the final model through pickle module of Python. This file is available as 'phishing_classifier.pkl' in this repository.
+After fine tuning, XGBoost classifier was chosen as the final model with an accuracy of 82.4%. This model was saved as the final model through pickle module of Python. This file is available as 'phishing_classifier.pkl' in this repository.
 
 **Future Work**
 
@@ -49,7 +49,7 @@ Jupyter notebook, Python 3 and above
 
 sklearn, numpy, pandas, pickle
 
-lux, seaborn, matplotlib, xgboost
+lux, seaborn, matplotlib, XGBoost
 
 BeautifulSoup, whois, urllib, tldextract
 
