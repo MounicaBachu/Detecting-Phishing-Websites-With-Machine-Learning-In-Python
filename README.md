@@ -2,7 +2,7 @@
 
 **Objective**
 
-Ever since the emergence of the Internet, phishing, a fraudulent practice is always an area of concern. We have approached via machine learning to address this problem. Through this project, we comapre many supervised machine learning algorithms on an publicly available dataset that has equal number of phishing and legitimate URLs and have identified a model which effectively classifies if the given URL is a phishing site or not.
+Ever since the emergence of the Internet, phishing, a fraudulent practice is always an area of concern. We have approached via machine learning to address this problem. Through this project, we compare many supervised machine learning algorithms on an publicly available dataset that has equal number of phishing and legitimate URLs and have identified a model which effectively classifies if the given URL is a phishing site or not.
 
 **Data Collection**
 
